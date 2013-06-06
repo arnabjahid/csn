@@ -1,0 +1,14 @@
+{
+	"name": "coolcsn/csn",
+    "require": {
+        "php": ">=5.3.3",
+        "monolog/monolog": "1.2.*",
+        "zendframework/zendframework": "2.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Csn\\": "library/",
+            "CsnTest\\": "tests/"
+        }
+    },
+}
